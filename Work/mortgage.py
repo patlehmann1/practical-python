@@ -10,7 +10,7 @@ while principal > 0:
     principal = principal * (1+rate/12) - payment
     total_paid = total_paid + payment
 
-print('Total paid', total_paid)
+print(f'Total paid {total_paid}')
 
 #
 # Exercise 1.8
@@ -33,8 +33,8 @@ while principal > 0:
     total_paid = total_paid + payment
   months += 1
 
-print('Total paid', total_paid)
-print('months', months)
+print(f'Total paid {total_paid}')
+print(f'months {months}')
 
 #
 # Exercise 1.9
@@ -59,8 +59,8 @@ while principal > payment:
     total_paid = total_paid + payment
   months += 1
 
-print('Total paid', total_paid)
-print('months', months)
+print(f'Total paid {total_paid}')
+print(f'months {months}')
 
 #
 # Exercise 1.10
@@ -86,8 +86,8 @@ while principal > 0:
 
   print(months, round(total_paid, 2), round(principal, 2))
 
-print('Total paid', total_paid)
-print('months', months)
+print(f'Total paid {total_paid}')
+print(f'months {months}')
 
 #
 # Exercise 1.11
@@ -113,5 +113,5 @@ while principal > payment:
 
   print(months, round(total_paid, 2), round(principal, 2))
 
-print('Total paid', total_paid)
-print('months', months)
+print(f'Total paid {total_paid}')
+print(f'months {months}')
